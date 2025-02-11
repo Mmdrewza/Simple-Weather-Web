@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Weather</title>
+</head>
+<body>
+    <section>
+        <div class="weather-content">
+            <div class="search">
+                <i class='bx bxs-location-plus'></i>
+                <input type="text" name="" id="" placeholder="Search..." autofocus>
+                <i class='bx bx-search' id="search"></i>
+            </div>
+            <div class="show-result">
+                <img class="result-img" src="/images/snow.png" alt="">
+                <div class="temp-container">
+                    <span class="temp">?</span>
+                    <div class="deg"></div>
+                </div>
+                <p class="any-where">Any where</p>
+                <p class="msg"></p>
+                <div class="other">
+                    <div class="other-content">
+                        <i class='bx bx-water'></i>
+                        <div>
+                            <span class="other-ditail humidity"></span>
+                            <span class="other-ditail">%</span>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="other-content">
+                        <i class='bx bx-wind'></i>
+                        <div>
+                            <span class="other-ditail"><span class="wind"></span>Km/h</span>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>

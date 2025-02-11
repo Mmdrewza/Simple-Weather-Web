@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: #fff;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg");
+    background-size: 100%100%;
+}
+
+.weather-content {
+    width: 450px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(123, 150, 176, 0.253);
+    /* background-color: transparent; */
+    backdrop-filter: blur(30px);
+    border: 1px solid #ffffff6d;
+}
+
+.search {
+    width: 100%;
+    border: 1px solid #ffffff6d;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.search > i {
+    font-size: 25px;
+}
+
+#search {
+    cursor: pointer;
+}
+
+input {
+    width: 85%;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.result-img {
+    width: 250px;
+}
+
+.show-result {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp-container {
+    display: flex;
+    margin: 20px 0 -10px 12px;
+}
+
+.temp {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.deg {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.any-where {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.msg {
+    text-align: center;
+    font-size: 14px;
+}
+
+.other {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.other-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-content i {
+    font-size: 60px;
+}
+
+.other-ditail {
+    font-size: 18px;
+}
+
+.other-content div p{
+    font-size: 14px;
+}
